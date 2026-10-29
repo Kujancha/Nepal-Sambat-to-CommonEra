@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "nschron"
+version = "0.4.5"
+description = "Astronomical Nepal Sambat date reconstruction with documented late-Malla concordances"
+requires-python = ">=3.10"
+dependencies = ["pyswisseph>=2.10"]
+[project.optional-dependencies]
+ui = ["gradio>=4.0"]
+dev = ["pytest>=7.0"]
+[project.scripts]
+nschron = "nschron.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

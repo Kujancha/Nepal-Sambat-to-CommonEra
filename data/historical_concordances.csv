@@ -1,0 +1,8 @@
+id,record,ns_year,month,paksha,tithi,reported_ce_date,classification,research_notes
+kat_house_1741,"Capuchin house grant, Kathmandu",862,Margashirsha,shukla,10,1741-12-17,exact,Document date reported as 17 Dec 1741; source transcription reads bright half; confirm original plate and CE calendar style.
+patan_house_1754,"Capuchin house grant, Patan",874,Chaitra,krishna,6,1754-04-12,exact,Reported European date; verify source edition and CE calendar style.
+ranajit_pope_1744,Ranajit Malla letter to Pope,864,Bhadra,shukla,1,1744-09-07,exact,Reported as first day of rising moon; verify original date notation and European calendar style.
+della_penna_1745,Francesco della Penna death / memorial,865,Ashadha,krishna,6,1745-07-20,qualified_exact,Matches reported corrected death date; Latin tomb year cited as 1747 and alternative scholarly NS conversion reported.
+jaya_prakash_1750,Jaya Prakash Malla restoration (Thyasaphu),870,Chaitra,krishna,10,1750-05-01,ns_weekday_match,Thyasaphu reportedly gives Friday; European restoration 30 Apr is inferred from Tranquillus relative statement; not an exact cross-calendar agreement.
+bhaktapur_house_1737,"Capuchin house grant, Bhaktapur",858,Kartika,shukla,7,1737-10-31,unresolved,No candidate: Shukla 7 skipped at sunrise in baseline; no special-case added.
+jaya_prakash_decree_1737,Jaya Prakash Malla decree,857,Ashvina,,15,1737-10-24,unresolved,Paksha not recorded; a 1-day mismatch under krishna interpretation.
