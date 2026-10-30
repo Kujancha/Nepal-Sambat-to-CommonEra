@@ -68,6 +68,19 @@ The following are **reported historical dates used during development** and are 
 
 See [`data/historical_concordances.csv`](data/historical_concordances.csv) for structured records and qualifications. These dates are **not hardcoded as special cases into the conversion algorithm**.
 
+
+### Calendar System and Scope
+
+This converter is primarily intended for interpreting historical Nepal Sambat dates found in Malla-period inscriptions, chronicles, manuscripts, and other contemporary documents.
+
+The implementation follows the **amānta lunisolar system**, in which lunar months end at the new moon. This is the traditional system associated with Nepal Sambat and the Newar calendar.
+
+Users should distinguish this system from the **pūrṇimānta lunar reckoning** commonly found in modern Nepali Panchangas. Although the astronomical tithi and pakṣa remain the same, the lunar month names differ during Kṛṣṇa Pakṣa (the dark fortnight).
+
+For modern Nepal Sambat dates, users may select the corresponding traditional Newar month names, which follow the amānta convention. However, **the converter has primarily been tested against historical Malla-era records and has not yet been systematically validated for modern dates**.
+
+Results should therefore be treated as astronomical reconstructions rather than authoritative civil calendar conversions.
+
 ### Important distinction: development data vs independent tests
 
 The reported Capuchin correspondences informed corrections to the year mapping and month indexing. Matching them shows that the implementation reproduces known examples; it does **not** establish general accuracy. Future validation should use previously unseen, consecutively logged inscriptions—including failed matches—and preferably independent weekdays or dual-dated documents. The weekday and tithi in one inscription may themselves come from the same historical calendar maker.
